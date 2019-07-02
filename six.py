@@ -1,5 +1,5 @@
-a=int(input())
-if a%4==0:
+ch=int(input())
+if ch%4==0:
   print("yes")
 else:
   print("no")
