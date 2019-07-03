@@ -1,13 +1,13 @@
-n = int(input())  
+number = int(input())  
 sum = 0  
-temp = n  
+temp = number 
   
 while temp > 0:  
    digit = temp % 10  
    sum += digit ** 3  
    temp //= 10  
   
-if n == sum:  
+if number== sum:  
    print("yes")  
 else:  
    print("no")  
