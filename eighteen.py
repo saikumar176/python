@@ -10,4 +10,4 @@ for numb in range(less,high + 1):
        temp //= 10
  
    if numb == sum:
-       print(numb)
+       print(numb,end=" ")
