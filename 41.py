@@ -1,4 +1,3 @@
-L=str(input())
-n=int(input())
-for i in range(0,n):
+L,n=map(str,input().split())
+for i in range(int(n)):
     print(L)
