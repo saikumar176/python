@@ -1,6 +1,3 @@
-ssv = input()
-list  = ssv.split()
-for num in list:
-    large=max(list)
-list.append(ssv)
-print(large)
+ss=int(input())
+rs=list(map(int,input().split()))
+print(max(rs))
